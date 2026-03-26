@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SEO Title Generator</title>
+</head>
+<body style="font-family: Arial; padding: 20px;">
+
+  <h2>SEO Title Generator</h2>
+
+  <input type="text" id="keyword" placeholder="Enter keyword" style="padding:10px; width:250px;">
+  <button onclick="generateTitles()" style="padding:10px;">Generate</button>
+
+  <ul id="result"></ul>
+
+  <script>
+    function generateTitles() {
+      let keyword = document.getElementById("keyword").value;
+      let titles = [
+        "Best " + keyword + " in 2026",
+        "Top 10 " + keyword + " You Must Try",
+        keyword + " Guide for Beginners",
+        "How to Use " + keyword + " Like a Pro",
+        keyword + " Tips That Actually Work"
+      ];
+
+      let result = document.getElementById("result");
+      result.innerHTML = "";
+
+      titles.forEach(title => {
+        let li = document.createElement("li");
+        li.textContent = title;
+        result.appendChild(li);
+      });
+    }
+  </script>
+
+</body>
+</html>
