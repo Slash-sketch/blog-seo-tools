@@ -7,7 +7,8 @@ An open-source project focused on helping bloggers and content creators improve 
 - Blog content structure guidance
 - Keyword planning ideas
 - Content optimization tips
-
+## Tools
+- SEO Title Generator (basic web tool)
 ## 🎯 هدف (Goal)
 To build simple and practical tools for bloggers, especially beginners, so they can grow faster without expensive tools.
 
